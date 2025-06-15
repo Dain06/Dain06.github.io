@@ -27,3 +27,14 @@ window.addEventListener('DOMContentLoaded', () => {
         scrollPos = currentTop;
     });
 })
+
+const bttn = document.querySelector(".popUpScreen");
+const popWidth = 600; //너비
+const popHeidht = 500; //높이
+
+bttn.addEventListener("click", function () {
+  let left = (screen.availWidth - popWidth) / 2;
+  let top = (screen.availHeight - popHeidht) / 2;
+  window.open("notice.html", "event", `width = ${popWidth}
+  height= ${popHeidht} left = ${left} top = ${top}`);
+});
