@@ -2,7 +2,8 @@
 
  - **작성자** : 20252241 김다인
  - **사용 테마** : https://startbootstrap.com/theme/clean-blog
- - **git 주소** : 
+ - **git 주소** : https://github.com/Dain06/Dain06.github.io
+ - **사이트 주소** : https://dain06.github.io/
 
 ## 기능
 
